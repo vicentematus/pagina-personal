@@ -4,7 +4,7 @@
   "description": "A simple Tailwind CSS boilerplate",
   "scripts": {
     "dev": "tailwindcss build tailwind.css -o public/css/tailwind.output.css",
-    "build": "env NODE_ENV=production postcss tailwind.css -o public/css/tailwind.output.css"
+    "build": "set NODE_ENV=production postcss tailwind.css -o public/css/tailwind.output.css"
   },
   "keywords": [
     "tailwind",
