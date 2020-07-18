@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tailwind.output.css" />
+  </head>
+  <body class="antialiased bg-gray-900 text-white font-body font-light">
+    <main class="">
+      <div class="">
+        <h1 class="text-2xl text-center font-bold">
+          Como migrar de cPanel a Google Suite
+        </h1>
+        <p>
+          En este tutorial vamos a ver como poder migrar los correos de cPanel a
+          Google Suite, respaldando todos los correos y configurando la DNS (MX
+          records en especifico) para poder funcionar.
+
+          <h2 class="text-xl font-medium mt-4">Requerimientos</h2>
+          <p>
+            <ul class="list-style">
+              <li>Usuario y Contraseña del que compró el hosting.</li>
+              <li>Usuario y contraseña de cada correo del cPanel antiguo.</li>
+              <li>Contraseña de cPanel.</li>
+              <li>Tener certificado SSL en el servidor IMAP.</li>
+            </ul>
+          </p>
+
+          <h2 class="text-xl font-medium leading-tight">1. Generar un respaldo de la informacion con Data Migration Service de G
+            Suite.</h2>
+          <p>
+             Para poder generar el respaldo de la informacion (asumiendo que esta con certificado de SSL), tenemos que acceder al Data Migration Service de Google.
+            <img src="../images/tutorial-google-suite/data-migration-service.png" alt="data migration service google suite">
+          </p>
+
+          <p>Vamos a ver un menú de esta manera</p>
+          <img src="../images/tutorial-google-suite/set-up-migration-google.png" alt="set up migration google">
+          
+          <h3>En la sección Migration Source</h3>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
